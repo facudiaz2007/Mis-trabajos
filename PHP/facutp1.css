@@ -1,0 +1,146 @@
+body{
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgb(2, 2, 110);
+}
+
+h1{
+  text-decoration: underline;
+  width: 20%;
+}
+
+.col1{
+  background-color: aquamarine;
+  width: 75%;
+  border-style: outset;
+  margin: 10px;
+}
+
+.form{
+  background-color: aquamarine;
+  width: 80%;
+  border-style: outset;
+  padding: 20px;
+  margin: 10px;
+}
+.result{
+  background-color: aquamarine;
+  width: 30%;
+  border-style: outset;
+  padding: 20px;
+  margin: 10px;
+}
+
+
+
+
+
+.a{
+  background-color: gold;
+  border-style: outset;
+  margin: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.b{
+  background-color: gold;
+  border-style: outset;
+  margin: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.c{
+  background-color: gold;
+  border-style: outset;
+  margin: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.d{
+  background-color: gold;
+  border-style: outset;
+  margin: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.e{
+  background-color: gold;
+  border-style: outset;
+  margin: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.f{
+  background-color: gold;
+  border-style: outset;
+  margin: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.g{
+  background-color: gold;
+  border-style: outset;
+  margin: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.h{
+  background-color: gold;
+  border-style: outset;
+  margin: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.i{
+  background-color: gold;
+  border-style: outset;
+  margin: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.j{
+  background-color: gold;
+  border-style: outset;
+  margin: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.k{
+  background-color: gold;
+  border-style: outset;
+  margin: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.l{
+  background-color: gold;
+  border-style: outset;
+  margin: 25px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}

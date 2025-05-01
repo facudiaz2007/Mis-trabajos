@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Juego de Preguntas</h1>
+        <p>¿Cuánto sabes de San José del Morro?</p>
+    </header>
+    
+    <main class="container">
+        <section id="p0">
+            <h3>1- ¿En qué año se fundó El Morro?</h3>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> 1723
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> 1539
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> 1521
+            </label>
+        </section>
+        
+        <section id="p1">
+            <h3>2- Aproximadamente, ¿Cuántos personas habitan El Morro?</h3>
+            <label>
+                <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> +280
+            </label>
+            <label>
+                <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> +340
+            </label>
+            <label>
+                <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> +100
+            </label>
+        </section>
+        
+        <section id="p2">
+            <h3>3- ¿Cómo se llamaba la mujer que escapó del cautiverio indio, a finales del siglo XIX?</h3>
+            <label>
+                <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> Triburcia Escudero
+            </label>
+            <label>
+                <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> Alejandra Escudero
+            </label>
+            <label>
+                <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> Triburcia Romero
+            </label>
+        </section>
+
+        <section id="p0">
+            <h3>4- ¿A cuántos kilómetros de distancia está El Morro de Villa Mercedes?</h3>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(3,this)"> 126 Kilometros
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(3,this)"> 102 Kilometros
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" onclick="respuesta(3,this)"> 49 Kilómetros
+            </label>
+        </section>
+
+        <section id="p0">
+            <h3>5- ¿Cuál es la superficie del Morro?</h3>
+            <label>
+                <input type="radio" value="1" name="p0" onclick="respuesta(4,this)"> 270,12 Km2
+            </label>
+            <label>
+                <input type="radio" value="2" name="p0" onclick="respuesta(4,this)"> 128 Km2
+            </label>
+            <label>
+                <input type="radio" value="3" name="p0" onclick="respuesta(4,this)"> 217 Km2
+            </label>
+        </section>
+
+        <button onclick= "corregir()">CORREGIR</button>
+        <h2> Cantidad de Aciertos: <span id="resultado"></span></h2>
+    </main>
+
+    <script src="js/prog.js"></script>
+</body>
+</html>

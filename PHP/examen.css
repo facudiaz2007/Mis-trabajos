@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{   
+    background-color: beige;
+
+}
+.cabecera{
+    background-color: rgb(52, 137, 207);
+    height: 150px;
+    width: 100%;
+}
+.col{
+    background-color: rgb(170, 227, 253);
+    width: 70%;
+    height: 150px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
