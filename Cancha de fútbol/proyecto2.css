@@ -1,0 +1,109 @@
+*, *:before, *:after {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  font-family: "Roboto", Arial, Arial, Helvetica, sans-serif;
+}
+.header{
+  display: grid;
+  place-items: center;
+  background-color: #0d4b21;
+  color: white;
+}
+.titulo{
+    margin-top: 30px;
+    font-size: 22px;
+}
+#solicitar-turno, #inscripciones, #torneo{
+  text-align: center;
+  color: white;
+  background-color: #0a2b1d;
+  text-decoration: none;
+  border-style: none;
+  height: 40px;
+  width: 180px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+#solicitar-turno:hover, #inscripciones:hover, #torneo:hover{
+  background-color: rgb(77, 77, 77);
+  transition: 1s;
+}
+
+body{
+  background-color: #115e2a;
+  color: white;
+}
+
+#form-fondo {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0,0,0,0.6);
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 999;
+}
+
+
+#turno-form {
+  background-color: #115e2a;
+  padding: 20px 30px;
+  border-radius: 8px;
+  position: relative;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: black;
+}
+
+.a{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.b{
+  height: 500px;
+  width: 30%;
+  margin-left: 30px;
+  background-color: #0d4b21;
+  display: grid;
+  place-items: center;
+  border-radius: 7px;
+}
+
+.c{
+  height: 500px;
+  width: 60%;
+  margin-right: 30px;
+  background-color: #0d4b21;
+  display: grid;
+  place-items: center;
+  border-radius: 7px;
+}
+
+
+
+footer{
+  margin-top: 5%;
+  display: grid;
+  place-items: center;
+  background-color: #0d4b21;
+  color: white;
+}
